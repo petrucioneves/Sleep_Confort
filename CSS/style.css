@@ -1,0 +1,11 @@
+header{
+    color: white;
+    background-color: #0677b8;
+}
+.card{
+    background-color:  #c7cfd4;
+}
+
+body{
+    background: linear-gradient(to bottom right,  #34b4ff, #DAF1FF);
+}
