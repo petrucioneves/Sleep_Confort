@@ -1,296 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rk Confot</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
-    <header>
-        <nav class="container d-flex justify-content-between align-items-center py-2">
-            <h3>Sleep Confort</h3>
-            <a href=""><img src="img/carrinho-2.png" alt="carrinho de compras" width="25" height="25"></a>
-        </nav>
-    </header>
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sleep Confort</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <div class="container" >
-        <div class="row ">
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#2c3e50">
+        <a class="navbar-brand" href="#" style=color:white>Sleep Confort</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#mostruario" class="nav-link" style=color:white>Mostruário</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre</a>
+                </li>
                 
-              </div>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                </li>
+                <li>
+                    <a href="#carrinho" class="nav-link carrinho" style=color:white><img src="img/carrinho-2.png" width="30" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img src="img/logo_Sleep_confort_2-removebg-preview.png"  alt="Responsive image">
+        </div>
+    </section>
+    <!--Mostruario -->
+    <div class="album py-5 bg-light" id="mostruario">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Mostruário</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/almofada.jpg" data-holder-rendered="true"
+                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-title">Almofada de pescoço na cor preta</p>
+                            <div class="d-flex justify-content-around align-items-center" >
+                                <button class="btn btn-sm btn-outline-primary bi bi-plus "></button>
+                                <p class="pt-3" >0</p>
+                                <button class="btn btn-sm btn-outline-primary bi bi-dash"></button>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/almofada.jpg" data-holder-rendered="true"
+                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-title">Almofada de pescoço na cor preta</p>
+                            <div class="d-flex justify-content-around align-items-center" >
+                                <button class="btn btn-sm btn-outline-primary bi bi-plus "></button>
+                                <p class="pt-3" >0</p>
+                                <button class="btn btn-sm btn-outline-primary bi bi-dash"></button>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="img/almofada.jpg" data-holder-rendered="true"
+                            style="height: 225px; width: 100%;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-title">Almofada de pescoço na cor preta</p>
+                            <div class="d-flex justify-content-around align-items-center" >
+                                <button class="btn btn-sm btn-outline-primary bi bi-plus "></button>
+                                <p class="pt-3" >0</p>
+                                <button class="btn btn-sm btn-outline-primary bi bi-dash"></button>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Adicionar ao Carrinho</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-                
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 mt-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 my-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-                
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 my-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-                
-              </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mx-3 my-3">
-                <img src="img/mascara-sembg.png" class="card-img-top" alt="..." width="10px" height="100px">
-                <div class="text-center">
-                    <h6>Mascara de Dormir</h6>
-                    <p id="text">Máscara de dormir macia, inodora 
-                        e tamanho ajustável, podendo ser utilizada por homens, mulheres e crianças.</p>
-                </div>
-                <div class="d-flex justify-content-center flex-fill ">
-                  <div>
-                    <p class="valor mx-2 my-2">1</p>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-plus-circle rounded-circle "></button>
-                  </div>
-                  <div>
-                    <button type="button" class="btn btn-light bi bi-dash-circle rounded-circle "></button>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-evenly">
-                  <div>
-                    <p >R$ 9,50</p>
-                  </div>  
-                  <div>
-                    <button class="btn btn-primary bi bi-cart-plus"></button>
-                  </div> 
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
     </div>
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <section class="jumbotron text-center corPrimaria pb-4" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <p class="lead paragrafoBrancos">Nossa empresa foi criada pensando no conforto e comodidade principalmente dos alunos
+              de outras cidades que precisam fazer o deslocamento de sua cidade para estudar, tendo
+              em vista que quixadá é uma cidade universitária e essa é uma realidade presente, o nome
+              da empresa é confort, sleep é sono traduzido do inglês, e confort é conforto.
+              Visando também o fácil acesso aos produtos foi criado um site para os clientes estarem
+              adquirindo o conjunto, fácil e rápido. Foi pensando na praticidade e facilidade da vida dos
+              universitários que criamos esse produto.</p>
+        </div>
+    </section>
+
+    <section Id="contato" class="bg-secondary">
+        <div class="bg-white">
+            <div class="container-fluid py-5">
+                <div class="text-center mb-5 ">
+                    <h3 class="titulosVerdes">Contato</h3>
+                    <a href="https://wa.me/558896835703" class="btn btn-lg btn-outline-success bi bi-whatsapp"></a>
+                </div>
+                
+            
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin: 1px;">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2022 Sleep Confort
+        </p>
+    </footer>
+
 </body>
+
 </html>
