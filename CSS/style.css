@@ -37,7 +37,8 @@ p {
 
 
 .jumbotron {
-    margin-bottom: 0px;
+    padding-top: 150px;
+    padding-bottom: 120px;
 }
 
 html {
@@ -54,4 +55,12 @@ p {
 
 .itemMenu {
     color: white;
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+#mostruario{
+    padding: 80px;
 }
